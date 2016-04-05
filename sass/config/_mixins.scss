@@ -1,0 +1,29 @@
+@mixin clearfix{
+  &:after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+@mixin fontawesome{
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@mixin sprites{
+	//background-image: url(../images/sprites.png);
+	//background-repeat: no-repeat;
+}
+
+@mixin border-radius($number...) {
+    border-radius: $number;
+    -webkit-border-radius: $number;
+}
+

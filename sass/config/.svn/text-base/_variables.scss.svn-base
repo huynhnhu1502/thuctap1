@@ -1,0 +1,39 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+$font-body: 'ralewaymedium';
+$font-primary: 'ralewayblack';
+$font-secondary: 'ralewaybold';
+$font-light: 'ralewaylight';
+$font-thin: 'ralewaythin';
+$font-titillium: 'titillium_webbold';
+
+// font size
+$body-font-size: 14px;
+$fontsize-11: .785em;
+$fontsize-12: .857em;
+$fontsize-13: .928em;
+$fontsize-14: 1em;
+$fontsize-15: 1.071em;
+$fontsize-16: 1.142em;
+$fontsize-18: 1.285em;
+$fontsize-19: 1.357em;
+$fontsize-20: 1.428em;
+$fontsize-24: 1.714em;
+$fontsize-28: 2em;
+$fontsize-30: 2.142em;
+$fontsize-32: 2.285em;
+$fontsize-35: 2.5em;
+$fontsize-36: 2.571em;
+$fontsize-48: 3.428em;
+$fontsize-50: 3.571em;
+
+// color
+$body-color: #666;
+$link-color: #0062a6;
+$black-color: #1a1a1a;
+$white-color: #fff;
+$red-color: #e21d42;
+$grey-color: #999;
+$blue-color: #055da9;
+
