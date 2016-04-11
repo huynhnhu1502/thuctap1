@@ -5,12 +5,44 @@
   border-bottom: 1px solid #2c2c3f;
   h3{
     color: #bbbbbb;
+    margin-bottom: 82px;
+    font-family: $font-primary;
   }
   ul{
     li{
+      margin-bottom: 20px;
       a{
         color: #57576e;
+        font-family: $font-primary;
+        &:hover, &:focus{
+          color: #d83737;
+        }
       }
+    }
+  }
+  p{
+    color: #57576e;
+    font-family: $font-primary;
+    margin-bottom: 30px;
+  }
+  .form-control{
+    background-color: #1f1f2d;
+    border-radius: 0;
+    border: 1px solid #31313e;
+    color: #57576e;
+    width: 100%;
+    height: 40px;
+    box-shadow: none;
+  }
+  .form-inline{
+    position: relative;
+    .btn-go{
+      position: relative;
+      left: 320px;
+      top: -30px;
+      background: transparent;
+      border: none;
+      color: #4d4d63;
     }
   }
 }

@@ -99,13 +99,53 @@ img {
 /* line 6, ../sass/base/_footer.scss */
 .footer h3 {
   color: #bbbbbb;
+  margin-bottom: 82px;
+  font-family: "titillium_websemibold";
 }
-/* line 11, ../sass/base/_footer.scss */
+/* line 12, ../sass/base/_footer.scss */
+.footer ul li {
+  margin-bottom: 20px;
+}
+/* line 14, ../sass/base/_footer.scss */
 .footer ul li a {
   color: #57576e;
+  font-family: "titillium_websemibold";
+}
+/* line 17, ../sass/base/_footer.scss */
+.footer ul li a:hover, .footer ul li a:focus {
+  color: #d83737;
+}
+/* line 23, ../sass/base/_footer.scss */
+.footer p {
+  color: #57576e;
+  font-family: "titillium_websemibold";
+  margin-bottom: 30px;
+}
+/* line 28, ../sass/base/_footer.scss */
+.footer .form-control {
+  background-color: #1f1f2d;
+  border-radius: 0;
+  border: 1px solid #31313e;
+  color: #57576e;
+  width: 100%;
+  height: 40px;
+  box-shadow: none;
+}
+/* line 37, ../sass/base/_footer.scss */
+.footer .form-inline {
+  position: relative;
+}
+/* line 39, ../sass/base/_footer.scss */
+.footer .form-inline .btn-go {
+  position: relative;
+  left: 320px;
+  top: -30px;
+  background: transparent;
+  border: none;
+  color: #4d4d63;
 }
 
-/* line 17, ../sass/base/_footer.scss */
+/* line 49, ../sass/base/_footer.scss */
 .copyright {
   background-color: #232331;
   color: #57576e;
@@ -114,7 +154,7 @@ img {
   padding-top: 42px;
   padding-bottom: 42px;
 }
-/* line 24, ../sass/base/_footer.scss */
+/* line 56, ../sass/base/_footer.scss */
 .copyright span {
   color: #ffffff;
 }

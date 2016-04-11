@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd24a96-c97c-47f3-9aeb-01a64cfd47f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_base.scssc" afterPath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_base.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_footer.scssc" afterPath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_footer.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_header.scssc" afterPath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/757e91aaaeb62993de02a83e48a1bda680d8a9b1/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/757e91aaaeb62993de02a83e48a1bda680d8a9b1/_variables.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_common.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_common.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_page.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_page.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_base.scss" afterPath="$PROJECT_DIR$/sass/base/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_footer.scss" afterPath="$PROJECT_DIR$/sass/base/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_header.scss" afterPath="$PROJECT_DIR$/sass/base/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/config/_variables.scss" afterPath="$PROJECT_DIR$/sass/config/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_common.scss" afterPath="$PROJECT_DIR$/sass/partials/_common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_form.scss" afterPath="$PROJECT_DIR$/sass/partials/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_page.scss" afterPath="$PROJECT_DIR$/sass/partials/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/fonts/stylesheet.css" afterPath="$PROJECT_DIR$/vendor/fonts/stylesheet.css" />
     </list>
     <ignored path="NoName.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.115385">
-              <caret line="1127" column="14" selection-start-line="1127" selection-start-column="14" selection-end-line="1127" selection-end-column="14" />
+            <state vertical-scroll-proportion="-9.769231">
+              <caret line="1125" column="23" selection-start-line="1125" selection-start-column="23" selection-end-line="1125" selection-end-column="23" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -61,27 +46,26 @@
                 <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_page.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/partials/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6642729">
-              <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+            <state vertical-scroll-proportion="-10.961538">
+              <caret line="268" column="13" selection-start-line="268" selection-start-column="13" selection-end-line="268" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/base/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6032316">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -161,8 +145,8 @@
         <option value="$PROJECT_DIR$/sass/partials/_form.scss" />
         <option value="$PROJECT_DIR$/sass/config/_variables.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/sass/base/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_page.scss" />
+        <option value="$PROJECT_DIR$/sass/base/_footer.scss" />
       </list>
     </option>
   </component>
@@ -476,7 +460,6 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -540,7 +523,6 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,7 +593,6 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -713,7 +694,6 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -752,7 +732,6 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.115385">
-          <caret line="1127" column="14" selection-start-line="1127" selection-start-column="14" selection-end-line="1127" selection-end-column="14" />
+        <state vertical-scroll-proportion="-9.769231">
+          <caret line="1125" column="23" selection-start-line="1125" selection-start-column="23" selection-end-line="1125" selection-end-column="23" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -902,23 +881,22 @@
             <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/base/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/partials/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6642729">
-          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+        <state vertical-scroll-proportion="-10.961538">
+          <caret line="268" column="13" selection-start-line="268" selection-start-column="13" selection-end-line="268" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/base/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6032316">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
           <folding />
         </state>
       </provider>
