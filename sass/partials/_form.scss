@@ -1,0 +1,54 @@
+.forms-search{
+  background-color: rgba(#23232e, 0.85);
+  .col-md-3{
+    margin-top: 39px;
+    margin-bottom: 39px;
+    &:last-child{
+      margin: 0;
+    }
+  }
+  .form-control{
+    border-radius: 0;
+    border: 1px solid #5a5a64;
+    background-color: #2b2a38;
+    opacity: 0.5;
+    color: #57576e;
+    &:hover, &:focus{
+      box-shadow: none;
+      border: 1px solid #cbcbce;
+      background-color: #2d2c3a;
+      color: $link-color;
+    }
+  }
+  .under{
+    margin-bottom: 9px;
+  }
+  .btn{
+    border-radius: 0;
+    background-color: #d83737;
+    text-transform: uppercase;
+    color: $link-color;
+    font-family: $font-primary;
+    padding: 67px 56px;
+    margin-left: 98px;
+    &:hover, &:focus{
+      background-color: #c22b2b;
+
+    }
+  }
+  select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+    position: relative;
+    &:before{
+      @include fontawesome;
+      content: "\f107";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top:3px;
+      right: 3px;
+    }
+  }
+}

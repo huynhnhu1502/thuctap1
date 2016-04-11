@@ -1,0 +1,38 @@
+body{
+  color: $body-color;
+  font-family: $font-body;
+  font-size: $body-font-size;
+}
+h1, h2, h3, h4{
+  margin: 0;
+}
+h1{
+  font-size: $fontsize-40;
+  font-family: 'titillium_websemibold';
+  margin-bottom: 30px;
+}
+h2{
+  font-size: $fontsize-30;
+}
+h3{
+  font-size: $fontsize-20;
+}
+
+a{
+  text-decoration: none;
+  &:hover, &:focus{
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+ul, ol{
+  padding-left: 0;
+}
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}

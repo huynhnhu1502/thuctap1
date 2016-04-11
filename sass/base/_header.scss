@@ -1,0 +1,30 @@
+.header{
+  background-color: #2e2e3b;
+  .logo{
+    padding-top: 16px;
+    a{
+      font-family: $font-primary;
+    }
+  }
+  .main-menu{
+    ul{
+      li{
+        &:last-child{
+          a{
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    a{
+      font-size: $fontsize-16;
+      color: $link-color;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      &:hover, &:focus{
+        background-color: transparent;
+        color: #d93637;
+      }
+    }
+  }
+}

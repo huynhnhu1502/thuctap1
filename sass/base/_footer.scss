@@ -1,0 +1,27 @@
+.footer{
+  background-color: #232331;
+  padding-top: 86px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #2c2c3f;
+  h3{
+    color: #bbbbbb;
+  }
+  ul{
+    li{
+      a{
+        color: #57576e;
+      }
+    }
+  }
+}
+.copyright{
+  background-color: #232331;
+  color: #57576e;
+  text-align: center;
+  font-size: $fontsize-15;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  span{
+    color: $link-color;
+  }
+}

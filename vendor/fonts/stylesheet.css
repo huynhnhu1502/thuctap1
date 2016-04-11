@@ -174,3 +174,16 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'juleeregular';
+    src: url('julee-regular-webfont.eot');
+    src: url('julee-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('julee-regular-webfont.woff2') format('woff2'),
+    url('julee-regular-webfont.woff') format('woff'),
+    url('julee-regular-webfont.ttf') format('truetype'),
+    url('julee-regular-webfont.svg#juleeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
