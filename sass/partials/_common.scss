@@ -21,17 +21,17 @@ a.carousel-control{
   border-radius: 50%;
   &:hover, &:focus{
     color: #d53a38;
-    border: 1px solid #d53a38;
+    border: 2px solid #d53a38;
   }
 }
 .fa-chevron-left{
   //padding: 4px 6px 3px 4px;
-  line-height: 24px;
+  line-height: 21px;
 }
 
 .fa-chevron-right{
   //padding: 4px 4px 3px 6px;
-  line-height: 24px;
+  line-height: 21px;
 }
 
 .carousel-control.left, .carousel-control.right{
