@@ -11,8 +11,9 @@
     border-radius: 0;
     border: 1px solid #5a5a64;
     background-color: #2b2a38;
-    opacity: 0.5;
+    opacity: 0.7;
     color: #57576e;
+    height: 40px;
     &:hover, &:focus{
       box-shadow: none;
       border: 1px solid #cbcbce;
@@ -29,7 +30,9 @@
     text-transform: uppercase;
     color: $link-color;
     font-family: $font-primary;
-    padding: 67px 56px;
+    //padding: 67px 56px;
+    height: 168px;
+    width: 170px;
     margin-left: 98px;
     &:hover, &:focus{
       background-color: #c22b2b;

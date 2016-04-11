@@ -5,18 +5,21 @@
   .carousel-control{
     top: 50%;
   }
-  .left{
-    left: 4%;
+  .left.carousel-control{
+    left: 50%;
+    margin-left: -615px;
   }
-  .right{
-    right: 5%;
+  .right.carousel-control{
+    right: 50%;
+    margin-right: -615px;
   }
   .carousel-caption{
-    width: 1170px;
-    padding: 0 15px;
+    width: 1140px;
+    padding: 0;
     text-align: left;
     right: auto;
     left: 50%;
+    //margin-left:-570px;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
     top: 160px;
@@ -93,7 +96,7 @@
     left: -5%;
   }
   .right{
-    right: -3%;
+    right: -5%;
   }
   .image{
     margin-bottom: 24px;
@@ -110,7 +113,7 @@
           width: 100%;
           z-index: 2;
           background-color: #232331;
-          opacity: 0.3;
+          opacity: 0.9;
           position: absolute;
           left: 0;
           top: 0;
@@ -128,7 +131,6 @@
       text-transform: uppercase;
       font-family: $font-primary;
       z-index: 20;
-
     }
   }
   .detail-item{
@@ -139,6 +141,9 @@
         padding-top: 10px;
         padding-bottom: 10px;
         font-family: $font-primary;
+        &:first-child{
+          padding-top: 0;
+        }
       }
     }
     .detail-inner{
@@ -191,6 +196,11 @@
   }
   .nav > li > a{
     padding: 12px 0;
+    &:hover, &:focus{
+      background-color: transparent;
+      border: none;
+      color: #d83536;
+    }
   }
   li.active > a{
     position: relative;
@@ -227,7 +237,12 @@
   }
   .col-md-4{
     text-align: center;
-    a{
+    &:hover, &:focus{
+      .title-img{
+        color: #d83737;
+      }
+    }
+    .title-img{
       display: block;
       font-family: $font-primary;
       font-size: $fontsize-20;

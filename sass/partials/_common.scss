@@ -8,19 +8,32 @@
   color: #bababa;
   bottom: auto;
   span{
-    border: 1px solid #bababa;
-    border-radius: 50%;
-    &:hover, &:focus{
-      color: #d53a38;
-      border: 1px solid #d53a38;
-    }
+
   }
 }
 
+a.carousel-control{
+  width: 24px;
+  height: 24px;
+  display: block;
+  text-align: center;
+  border: 2px solid #bababa;
+  border-radius: 50%;
+  &:hover, &:focus{
+    color: #d53a38;
+    border: 1px solid #d53a38;
+  }
+}
 .fa-chevron-left{
-  padding: 4px 5px 3px 4px;
+  //padding: 4px 6px 3px 4px;
+  line-height: 24px;
 }
 
 .fa-chevron-right{
-  padding: 4px 4px 3px 6px;
+  //padding: 4px 4px 3px 6px;
+  line-height: 24px;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background-image: none;
 }
