@@ -1,5 +1,11 @@
 .header{
   background-color: #2e2e3b;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  opacity: 0.9;
   .logo{
     padding-top: 16px;
     a{
