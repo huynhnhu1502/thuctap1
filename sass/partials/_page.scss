@@ -407,7 +407,7 @@
   }
   .tag{
     color: #9d9da9;
-    padding: 2px 6px;
+    padding: 0 6px;
     border: 1px solid #bbbbbb;
     margin-right: 8px;
     font-size: $fontsize-12;
@@ -552,7 +552,6 @@
         }
         p{
           color: #eaeaeb;
-          font-family: $font-primary;
         }
         .service-detail{
           display: block;
@@ -566,7 +565,7 @@
   padding-top: 70px;
   padding-bottom: 140px;
   h2{
-    margin-bottom: 98px;
+    margin-bottom: 81px;
     font-family: $font-primary;
     text-align: center;
   }
@@ -638,7 +637,19 @@
   }
   .col-md-8{
     padding-left: 0;
-    margin-top: 58px;
+    padding-top: 76px;
+    padding-bottom: 95px;
+    border-left: 1px solid #f2f2f2;
+    &:before{
+      content: "";
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      background: url("../images/border-map.png") no-repeat;
+      position: absolute;
+      left: 0;
+      top: 40px;
+    }
     iframe{
       width: 770px;
     }
@@ -665,6 +676,7 @@
         border-radius:50%;
         text-align: center;
         padding: 0;
+        margin-bottom: 14px;
         &:hover, &:focus{
           background-color: #d83737;
         }
@@ -674,6 +686,9 @@
           line-height: 44px;
         }
       }
+    }
+    .fa-mobile, .fa-angle-up{
+      font-size: 30px;
     }
   }
   .modal-content{

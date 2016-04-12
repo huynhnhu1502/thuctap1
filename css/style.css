@@ -143,7 +143,7 @@ p {
 /* line 6, ../sass/base/_footer.scss */
 .footer h3 {
   color: #bbbbbb;
-  margin-bottom: 82px;
+  margin-bottom: 72px;
   font-family: "titillium_websemibold";
 }
 /* line 12, ../sass/base/_footer.scss */
@@ -198,8 +198,8 @@ p {
   color: #57576e;
   text-align: center;
   font-size: 1.071em;
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding-top: 37px;
+  padding-bottom: 37px;
 }
 /* line 59, ../sass/base/_footer.scss */
 .copyright span {
@@ -724,7 +724,7 @@ a.carousel-control:hover, a.carousel-control:focus {
 /* line 408, ../sass/partials/_page.scss */
 .main .tag {
   color: #9d9da9;
-  padding: 2px 6px;
+  padding: 0 6px;
   border: 1px solid #bbbbbb;
   margin-right: 8px;
   font-size: 0.857em;
@@ -888,64 +888,63 @@ a.carousel-control:hover, a.carousel-control:focus {
 /* line 553, ../sass/partials/_page.scss */
 .our-service .service-inner:hover .service p, .our-service .service-inner:focus .service p {
   color: #eaeaeb;
-  font-family: "titillium_websemibold";
 }
-/* line 557, ../sass/partials/_page.scss */
+/* line 556, ../sass/partials/_page.scss */
 .our-service .service-inner:hover .service .service-detail, .our-service .service-inner:focus .service .service-detail {
   display: block;
 }
 
-/* line 565, ../sass/partials/_page.scss */
+/* line 564, ../sass/partials/_page.scss */
 .contact {
   padding-top: 70px;
   padding-bottom: 140px;
 }
-/* line 568, ../sass/partials/_page.scss */
+/* line 567, ../sass/partials/_page.scss */
 .contact h2 {
-  margin-bottom: 98px;
+  margin-bottom: 81px;
   font-family: "titillium_websemibold";
   text-align: center;
 }
-/* line 573, ../sass/partials/_page.scss */
+/* line 572, ../sass/partials/_page.scss */
 .contact .col-md-4 {
   padding-right: 30px;
 }
-/* line 575, ../sass/partials/_page.scss */
+/* line 574, ../sass/partials/_page.scss */
 .contact .col-md-4 p, .contact .col-md-4 address {
   font-family: "titillium_websemibold";
   font-size: 1.071em;
 }
-/* line 579, ../sass/partials/_page.scss */
+/* line 578, ../sass/partials/_page.scss */
 .contact .col-md-4 p {
   line-height: 1.4;
   margin-bottom: 40px;
 }
-/* line 583, ../sass/partials/_page.scss */
+/* line 582, ../sass/partials/_page.scss */
 .contact .col-md-4 address {
   line-height: 2;
   margin-bottom: 43px;
 }
-/* line 586, ../sass/partials/_page.scss */
+/* line 585, ../sass/partials/_page.scss */
 .contact .col-md-4 address a {
   color: #232331;
 }
-/* line 588, ../sass/partials/_page.scss */
+/* line 587, ../sass/partials/_page.scss */
 .contact .col-md-4 address a:hover, .contact .col-md-4 address a:focus {
   color: #d83737;
 }
-/* line 594, ../sass/partials/_page.scss */
+/* line 593, ../sass/partials/_page.scss */
 .contact .address {
   padding-right: 16px;
 }
-/* line 597, ../sass/partials/_page.scss */
+/* line 596, ../sass/partials/_page.scss */
 .contact .tel {
   padding-right: 49px;
 }
-/* line 600, ../sass/partials/_page.scss */
+/* line 599, ../sass/partials/_page.scss */
 .contact .mail {
   padding-right: 34px;
 }
-/* line 604, ../sass/partials/_page.scss */
+/* line 603, ../sass/partials/_page.scss */
 .contact form .form-control {
   margin-bottom: 10px;
   border-radius: 0;
@@ -954,24 +953,24 @@ a.carousel-control:hover, a.carousel-control:focus {
   height: 39px;
   font-family: "titillium_webregular";
 }
-/* line 611, ../sass/partials/_page.scss */
+/* line 610, ../sass/partials/_page.scss */
 .contact form .form-control:focus {
   box-shadow: none;
 }
-/* line 615, ../sass/partials/_page.scss */
+/* line 614, ../sass/partials/_page.scss */
 .contact form .form-control::-moz-placeholder {
   color: #8c8c8c;
 }
-/* line 618, ../sass/partials/_page.scss */
+/* line 617, ../sass/partials/_page.scss */
 .contact form select {
   color: #8c8c8c;
 }
-/* line 621, ../sass/partials/_page.scss */
+/* line 620, ../sass/partials/_page.scss */
 .contact form .discription {
   height: 120px;
   padding-bottom: 72px;
 }
-/* line 626, ../sass/partials/_page.scss */
+/* line 625, ../sass/partials/_page.scss */
 .contact .btn-send {
   background-color: #d83737;
   color: #ffffff;
@@ -982,28 +981,41 @@ a.carousel-control:hover, a.carousel-control:focus {
   border: none;
   margin-left: 241px;
 }
-/* line 635, ../sass/partials/_page.scss */
+/* line 634, ../sass/partials/_page.scss */
 .contact .btn-send:hover, .contact .btn-send:focus {
   background-color: #c22b2b;
 }
-/* line 639, ../sass/partials/_page.scss */
+/* line 638, ../sass/partials/_page.scss */
 .contact .col-md-8 {
   padding-left: 0;
-  margin-top: 58px;
+  padding-top: 76px;
+  padding-bottom: 95px;
+  border-left: 1px solid #f2f2f2;
 }
-/* line 642, ../sass/partials/_page.scss */
+/* line 643, ../sass/partials/_page.scss */
+.contact .col-md-8:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  background: url("../images/border-map.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+/* line 653, ../sass/partials/_page.scss */
 .contact .col-md-8 iframe {
   width: 770px;
 }
 
-/* line 650, ../sass/partials/_page.scss */
+/* line 661, ../sass/partials/_page.scss */
 .popup .nav {
   position: fixed;
   right: 40px;
   top: 30%;
   z-index: 90;
 }
-/* line 656, ../sass/partials/_page.scss */
+/* line 667, ../sass/partials/_page.scss */
 .popup .nav li a {
   border: 1px solid transparent;
   border-radius: 50%;
@@ -1016,47 +1028,52 @@ a.carousel-control:hover, a.carousel-control:focus {
   border-radius: 50%;
   text-align: center;
   padding: 0;
+  margin-bottom: 14px;
 }
-/* line 668, ../sass/partials/_page.scss */
+/* line 680, ../sass/partials/_page.scss */
 .popup .nav li a:hover, .popup .nav li a:focus {
   background-color: #d83737;
 }
-/* line 671, ../sass/partials/_page.scss */
+/* line 683, ../sass/partials/_page.scss */
 .popup .nav li a i {
   font-size: 1.428em;
   color: #ffffff;
   line-height: 44px;
 }
-/* line 679, ../sass/partials/_page.scss */
+/* line 690, ../sass/partials/_page.scss */
+.popup .nav .fa-mobile, .popup .nav .fa-angle-up {
+  font-size: 30px;
+}
+/* line 694, ../sass/partials/_page.scss */
 .popup .modal-content {
   border-radius: 4px;
 }
-/* line 682, ../sass/partials/_page.scss */
+/* line 697, ../sass/partials/_page.scss */
 .popup .modal-header {
   border-bottom: none;
 }
-/* line 684, ../sass/partials/_page.scss */
+/* line 699, ../sass/partials/_page.scss */
 .popup .modal-header i {
   font-size: 14px;
 }
-/* line 688, ../sass/partials/_page.scss */
+/* line 703, ../sass/partials/_page.scss */
 .popup .modal-header .close {
   margin-top: -12px;
 }
-/* line 691, ../sass/partials/_page.scss */
+/* line 706, ../sass/partials/_page.scss */
 .popup .modal-body {
   padding-top: 0;
   margin-left: 115px;
   margin-right: 115px;
   padding-bottom: 66px;
 }
-/* line 696, ../sass/partials/_page.scss */
+/* line 711, ../sass/partials/_page.scss */
 .popup .modal-body h2 {
   text-align: center;
   margin-bottom: 40px;
   font-family: "titillium_websemibold";
 }
-/* line 702, ../sass/partials/_page.scss */
+/* line 717, ../sass/partials/_page.scss */
 .popup .form-control {
   background-color: #fafafa;
   border-radius: 0;
@@ -1066,15 +1083,15 @@ a.carousel-control:hover, a.carousel-control:focus {
   color: #777777;
   height: 40px;
 }
-/* line 710, ../sass/partials/_page.scss */
+/* line 725, ../sass/partials/_page.scss */
 .popup .form-control:hover, .popup .form-control:focus {
   box-shadow: none;
 }
-/* line 714, ../sass/partials/_page.scss */
+/* line 729, ../sass/partials/_page.scss */
 .popup .form-control[type=password] {
   margin-bottom: 7px;
 }
-/* line 717, ../sass/partials/_page.scss */
+/* line 732, ../sass/partials/_page.scss */
 .popup a {
   text-align: right;
   display: block;
@@ -1082,15 +1099,15 @@ a.carousel-control:hover, a.carousel-control:focus {
   line-height: 1;
   margin-bottom: 23px;
 }
-/* line 723, ../sass/partials/_page.scss */
+/* line 738, ../sass/partials/_page.scss */
 .popup a:hover, .popup a:focus {
   color: #c22b2b;
 }
-/* line 727, ../sass/partials/_page.scss */
+/* line 742, ../sass/partials/_page.scss */
 .popup .form-control::-moz-placeholder {
   color: #777777;
 }
-/* line 730, ../sass/partials/_page.scss */
+/* line 745, ../sass/partials/_page.scss */
 .popup .btn {
   border-radius: 0;
   height: 45px;
@@ -1098,7 +1115,7 @@ a.carousel-control:hover, a.carousel-control:focus {
   background-color: #d83737;
   color: #ffffff;
 }
-/* line 736, ../sass/partials/_page.scss */
+/* line 751, ../sass/partials/_page.scss */
 .popup .btn:hover, .popup .btn:focus {
   background-color: #c22b2b;
 }
