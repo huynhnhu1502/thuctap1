@@ -46,3 +46,11 @@ a:focus{
 button{
   @include transition(0.3s);
 }
+
+i{
+  @include transition(0.3s);
+}
+
+p{
+  @include transition(0.3s);
+}
