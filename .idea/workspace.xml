@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fd24a96-c97c-47f3-9aeb-01a64cfd47f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_header.scssc" afterPath="$PROJECT_DIR$/.sass-cache/12c51edb90478d01ad6f5296fe4caf27e141fa15/_header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_page.scssc" afterPath="$PROJECT_DIR$/.sass-cache/a4b01bc20a769a8139ff2e436badc1057c9b86a3/_page.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_header.scss" afterPath="$PROJECT_DIR$/sass/base/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_form.scss" afterPath="$PROJECT_DIR$/sass/partials/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_page.scss" afterPath="$PROJECT_DIR$/sass/partials/_page.scss" />
     </list>
     <ignored path="NoName.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.846153">
-              <caret line="1164" column="46" selection-start-line="1164" selection-start-column="46" selection-end-line="1164" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.6032316">
+              <caret line="1153" column="38" selection-start-line="1153" selection-start-column="38" selection-end-line="1153" selection-end-column="38" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -66,10 +58,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_page.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/partials/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57271093">
+            <state vertical-scroll-proportion="-12.269231">
               <caret line="646" column="35" selection-start-line="646" selection-start-column="35" selection-end-line="646" selection-end-column="35" />
               <folding />
             </state>
@@ -160,8 +152,8 @@
         <option value="$PROJECT_DIR$/sass/partials/_common.scss" />
         <option value="$PROJECT_DIR$/sass/base/_header.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_form.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/partials/_page.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -896,10 +888,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.269231">
+          <caret line="646" column="35" selection-start-line="646" selection-start-column="35" selection-end-line="646" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.846153">
-          <caret line="1164" column="46" selection-start-line="1164" selection-start-column="46" selection-end-line="1164" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.6032316">
+          <caret line="1153" column="38" selection-start-line="1153" selection-start-column="38" selection-end-line="1153" selection-end-column="38" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -918,14 +918,6 @@
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/partials/_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57271093">
-          <caret line="646" column="35" selection-start-line="646" selection-start-column="35" selection-end-line="646" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
