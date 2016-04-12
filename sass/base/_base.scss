@@ -20,9 +20,11 @@ h3{
 
 a{
   text-decoration: none;
+  @include transition(0.3s);
   &:hover, &:focus{
     text-decoration: none;
     background-color: transparent;
+    transition: 0.3s;
   }
 }
 ul, ol{
@@ -39,4 +41,8 @@ img{
 
 a:focus{
   outline: none;
+}
+
+button{
+  @include transition(0.3s);
 }

@@ -83,7 +83,9 @@
   .slider-title, .item-title{
     text-transform: uppercase;
     font-family: $font-primary;
-    margin-bottom: 30px;
+  }
+  .item-title{
+    margin-bottom: 20px;
   }
   .slider-title{
     text-align: center;
@@ -104,25 +106,34 @@
     z-index: 1;
     &:hover, &:focus{
       a{
-        display: block;
+        //display: block;
+        opacity: 1;
       }
-      .img{
-        &:before{
-          content: "";
-          height: 100%;
-          width: 100%;
-          z-index: 2;
-          background-color: #232331;
+      .img {
+        &:before {
           opacity: 0.9;
-          position: absolute;
-          left: 0;
-          top: 0;
         }
+      }
+    }
+    .img{
+      &:before{
+        content: "";
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        background-color: #232331;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        @include transition(0.3s);
       }
     }
     a{
       position: absolute;
-      display: none;
+      //display: none;
+      @include transition(0.3s);
+      opacity: 0;
       padding: 44px 32px;
       color: $link-color;
       background-color: #d93637;
@@ -287,7 +298,8 @@
     color: $link-color;
   }
   .panel-heading{
-    padding: 26px 0;
+    padding: 27px 0 22px 0;
+
     a{
       font-family: $font-primary;
       color: #d83737;
@@ -300,6 +312,7 @@
       }
       &.collapsed{
         color: $link-color;
+        padding: 27px 0;
         &:hover{
           color: #d83737;
           i{
@@ -327,6 +340,7 @@
         a{
           font-size: $fontsize-15;
           color: #454559;
+          line-height: 1;
           &:hover, &:focus{
             color: $link-color;
           }
@@ -383,7 +397,7 @@
     }
   }
   .media-heading{
-    margin-bottom: 16px;
+    margin-bottom: 14px;
     a{
       color: $body-color;
       &:hover, &:focus{
@@ -394,7 +408,7 @@
   p.info{
     font-size: $fontsize-12;
     color: #bbbbbb;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     line-height: 1.9;
     span{
       color: #9d9da9;
@@ -432,6 +446,7 @@
     }
     .location{
       color: #888888;
+      line-height: 1;
     }
     .col-md-3{
       text-align: right;
@@ -465,7 +480,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-color: #383845;
+    background-color: #232331;
     opacity: 0.9;
   }
   h2{
@@ -499,7 +514,7 @@
       a{
         color: #515167;
         &:hover, &:focus{
-          color: #d83737;
+          color: #ffffff;
         }
       }
     }
@@ -627,7 +642,7 @@
 .popup{
   .nav{
     position: fixed;
-    right: 0;
+    right: 40px;
     top: 30%;
     z-index: 90;
     li{
@@ -644,10 +659,7 @@
         text-align: center;
         padding: 0;
         &:hover, &:focus{
-          background-color: #edebeb;
-          i{
-            color: #d83737;
-          }
+          background-color: #d83737;
         }
         i{
           font-size: $fontsize-20;

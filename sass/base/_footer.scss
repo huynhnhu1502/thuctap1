@@ -15,7 +15,8 @@
         color: #57576e;
         font-family: $font-primary;
         &:hover, &:focus{
-          color: #d83737;
+          color: #ffffff;
+          font-size: $fontsize-15;
         }
       }
     }

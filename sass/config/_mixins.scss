@@ -27,3 +27,10 @@
     -webkit-border-radius: $number;
 }
 
+@mixin transition($time){
+  -webkit-transition: all ease-in $time;
+  -moz-transition: all ease-in $time;
+  -ms-transition: all ease-in $time;
+  -o-transition: all ease-in $time;
+  transition: all ease-in $time;
+}
