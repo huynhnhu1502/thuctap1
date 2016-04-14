@@ -134,11 +134,17 @@
       //display: none;
       @include transition(0.3s);
       opacity: 0;
-      padding: 44px 32px;
+      //
+      width: 100px;
+      height: 100px;
+      display: inline-block;
       color: $link-color;
       background-color: #d93637;
       right: 0;
-      top: 60px;
+      top: 50%;
+      margin-top:-50px;
+      line-height: 100px;
+      text-align: center;
       text-transform: uppercase;
       font-family: $font-primary;
       z-index: 20;
@@ -259,7 +265,6 @@
     }
     .title-img{
       display: block;
-      font-family: $font-primary;
       font-size: $fontsize-20;
       font-family: $font-primary;
       color: $body-color;
@@ -389,6 +394,8 @@
   }
   .media-left{
     vertical-align: top;
+    display: block;
+    float: left;
   }
   .media-body{
     font-family: $font-primary;
@@ -666,11 +673,9 @@
     li{
       a{
         border: 1px solid transparent;
-        border-radius: 50%;
         background-color: #232331;
         width: 44px;
         height: 44px;
-        border: 1px solid transparent;
         -webkit-border-radius:50%;
         -moz-border-radius:50%;
         border-radius:50%;

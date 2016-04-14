@@ -40,9 +40,10 @@
   .form-inline{
     position: relative;
     .btn-go{
-      position: relative;
-      left: 320px;
-      top: -30px;
+      position: absolute;
+      //left: 330px;
+      top: 10px;
+      right: 5px;
       background: transparent;
       border: none;
       color: #4d4d63;

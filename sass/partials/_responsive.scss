@@ -1,0 +1,111 @@
+@media (max-width: 1199px){
+  body{
+    margin-top: 68px;
+  }
+  .slideshow{
+    .carousel-inner > .item > img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)  {
+  //body{
+  //  margin-top: 68px;
+  //}
+  .slideshow{
+    .carousel-caption{
+      top: 20px;
+      width: 860px;
+      .detail{
+        margin-bottom: 10px;
+      }
+    }
+    h1{
+      font-size: $fontsize-30;
+      margin-bottom: 15px;
+    }
+
+    .price{
+      font-size: $fontsize-20;
+      margin-bottom: 15px;
+    }
+    .btn{
+      padding: 4px;
+      i{
+        margin-left: 28px;
+      }
+    }
+    .left.carousel-control{
+      margin-left: -480px;
+    }
+    .right.carousel-control{
+      margin-right: -480px;
+    }
+    //.carousel-inner > .item > img{
+    //  max-width: 100%;
+    //}
+  }
+
+  .forms-search{
+    .btn{
+      margin-left: 42px;
+    }
+  }
+
+  .slider{
+    .left{
+      left: -25px;
+    }
+    .right{
+      right:-25px;
+    }
+  }
+
+  .main{
+    .media-left{
+      max-width: 200px;
+    }
+    .tag{
+      padding: 0 3px;
+    }
+    .dealer{
+      .col-md-2{
+        padding-right: 6px;
+      }
+      .col-md-7{
+        padding-right: 5px;
+        width: 64.333%;
+      }
+      .col-md-3{
+        padding-left: 0;
+        width: 20%;
+      }
+    }
+  }
+  .contact{
+    .btn-send{
+      margin-left: 174px;
+    }
+  }
+  .popup{
+    .nav{
+      right: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .slideshow{
+    .carousel-caption{
+      display: none;
+    }
+    .left.carousel-control{
+      margin-left: -370px;
+    }
+    .right.carousel-control{
+      margin-right: -370px;
+    }
+  }
+}
